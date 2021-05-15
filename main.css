@@ -156,10 +156,15 @@ footer {
     flex-direction: column;
     justify-content: center;
     
+    
 }
+
 .footer-container {
     display: inline-flex;
-    justify-content: center;
+}
+.footer-links-container {
+    display: inline-flex;
+    
 }
 
 .company-description {
@@ -224,6 +229,19 @@ footer ul {
         flex-direction: column-reverse;
     }
 
+    .content {
+        
+        display: flex;
+        flex-direction: column;
+        background-size: contain;
+        background-position: left;
+        background-color: red;
+    }
+    .phone-hidden {
+        width: 200px;
+        height: 400px;
+    }
+
     .text-editor-img img {
         width: 100%;
     }
@@ -237,11 +255,15 @@ footer ul {
         margin: 0;
     }
 
-    .footer-links {
-        margin: 0;
-    }
     .footer-links-container {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+    .footer-links {
+        margin: 0 ;
+        flex: 0 0 50%;
+    }
+
 }
