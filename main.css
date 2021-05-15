@@ -64,7 +64,7 @@ header ul {
    
 }
 
-.hero img {
+.hero-image img {
     max-width: 100%;
     width: 50%;
  
@@ -186,4 +186,57 @@ footer ul {
 .footer-links ul li{
     list-style: none;
 
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 80%;
+    }
+    body {
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero-description {
+        width: 100%;
+    }
+
+    .hero-form {
+        display: flex;
+    }
+
+    .hero-image {
+        flex: 1 1 auto;
+        justify-content: flex-start; 
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .middle-section {
+        width: 100%;
+    }
+
+    .content-2 {
+        flex-direction: column-reverse;
+    }
+
+    .text-editor-img img {
+        width: 100%;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .company-description {
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+    .footer-links {
+        margin: 0;
+    }
 }
