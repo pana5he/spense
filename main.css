@@ -1,0 +1,189 @@
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;}
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links li{
+    margin-right: 20px;
+
+}
+
+.login-register li:first-of-type {
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.8em;
+}
+
+section {
+    display: flex;
+    background-color: #efeeea;
+}
+header ul {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+}
+
+.content {
+    background-image: url("./Assets/Phone\ Mockup.png");
+    background-size: cover;
+}
+
+.hero {
+    display: flex;
+    padding: 0 0 60px;
+    justify-content: center;
+   
+}
+
+.hero img {
+    max-width: 100%;
+    width: 50%;
+ 
+
+}
+
+.hero-image {
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: flex-end;
+}
+.hero-description{
+    padding: 2rem 0;
+    flex: 1 1 auto;
+    width: 40%;
+}
+
+.hero-description ul {
+    padding: 0;
+}
+
+.hero-description ul li {
+    list-style: none;
+}
+
+.hero-description ul li::before{
+    background-image: url('./Assets/Checkmark.svg');
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 0.3rem;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#phone-mockup img{
+    width: 90%;
+}
+
+.middle-section {
+    width: 30%;
+}
+
+.content {
+    padding: 50px;
+}
+#partners ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#partners li{
+    display: inline-flex;
+
+}
+
+#partners li img{
+    display: inline-flex;
+    width: 100px;
+    height: auto;
+    
+
+}
+
+.content-2 {
+    display: inline-flex;
+}
+
+#text-editor-img{
+    flex: 0 0 60%;
+    max-width: fit-content;
+}
+
+#text-editor-img img{
+    width: 100%;
+}
+
+footer {
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.footer-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.company-description {
+    flex: 0 0 30%;
+    margin-right: 6rem;
+}
+
+.footer-links {
+    margin: 0 30px 0 30px;
+
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;;
+
+
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+.footer-links ul li{
+    list-style: none;
+
+}
