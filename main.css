@@ -200,6 +200,7 @@ footer ul {
         overflow: hidden;
     }
     body {
+        font-size: 0.9rem;
     }
     .hero{
         flex-direction: column-reverse;
@@ -222,6 +223,7 @@ footer ul {
         flex: 1 1 auto;
         justify-content: flex-start; 
     }
+
 
     .hero-image img {
         width: 100%;
