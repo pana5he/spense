@@ -212,6 +212,11 @@ footer ul {
         display: flex;
     }
 
+    .hero-form input{
+        width: 50%;
+        margin-right: 30px;
+    }
+
     .hero-image {
         flex: 1 1 auto;
         justify-content: flex-start; 
@@ -233,13 +238,13 @@ footer ul {
         
         display: flex;
         flex-direction: column;
-        background-size: contain;
-        background-position: left;
-        background-color: red;
+        background-size: 230%;
+        background-position: bottom left -365px;
+        background-repeat: no-repeat;
     }
     .phone-hidden {
         width: 200px;
-        height: 400px;
+        height: 230px;
     }
 
     .text-editor-img img {
