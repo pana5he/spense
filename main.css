@@ -27,6 +27,11 @@
     margin: auto;
 }
 
+.header {
+    background-color: #efeeea;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -36,6 +41,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.logo {
+    font-weight: bold;
 }
 
 .nav-links li{
@@ -254,7 +262,7 @@ footer ul {
     }
     .hero-image {
         justify-content: flex-start;
-        height: 600px;
+        height: 400px;
         flex-basis: auto;
     }
     .hero-image img {
@@ -295,15 +303,49 @@ footer ul {
 @media (max-width: 600px) {
    
     body {
-        font-size: 0.9rem;
+        /* font-size: 0.9rem; */
     }
-    nav {
+    .container{
+    }
+    .nav-links {
         display: none;
+        list-style: none;
+        transition: width .8s, height .8s;
+    }
+    .mobile-links {
+        display: none;
+        
     }
     .mobile-nav {
-        display:block;
+        display:flex;
+        
     }
 
+    .mobile-nav ul {
+        flex-direction: column;
+    }
+
+    .checkbox:checked ~ .nav-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav-links li {
+        margin: 10px ;
+    }
+    .mobile-links .nav-links{
+        flex-direction: column;
+        
+    }
+    .mobile-links .login-register{
+        flex-direction: column;
+    }
+    .menu-click {
+
+    }
 
     .hero-description {
         width: 100%;
