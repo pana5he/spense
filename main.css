@@ -222,7 +222,7 @@ footer ul {
     }
     .hero-image img {
         object-fit: cover;
-        object-position: 5px 40%;
+        object-position: center;
         width: 100%;
     }
 
@@ -258,14 +258,9 @@ footer ul {
         margin-right: 30px;
     }
 
-    .hero-image {
-        flex: 1 1 auto;
-        justify-content: flex-start; 
-    }
-
 
     .hero-image img {
-        width: 100%;
+        object-fit: contain;
     }
 
     .middle-section {
