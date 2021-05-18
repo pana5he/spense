@@ -7,6 +7,9 @@
     text-decoration:#efeeea;
 }
 
+.nav-links {
+    display: none;
+}
 .top-bar h5 {
     margin: 0;
 }
@@ -15,7 +18,7 @@
     text-decoration: underline;
 }
 
-.mobile-nav {
+.mobile-nav, .nav-links {
     display: none;
 }
 
@@ -318,6 +321,8 @@ footer ul {
     }
     .mobile-nav {
         display:flex;
+        padding: 10px;
+        margin-bottom: 10px;
         
     }
 
